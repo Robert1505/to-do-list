@@ -23,7 +23,7 @@ export default function Timer() {
             <h1 id = "headline">TIME LEFT TO BE A GOD:</h1>
             <div id = "countdown">
                 <ul>
-                    <li>
+                    <li className = "mb-12">
                         <span id = "hours"></span>
                         {hours}
                     </li>

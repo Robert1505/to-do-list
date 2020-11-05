@@ -13,10 +13,10 @@ function Objectives({label, checked, idx}) {
 
     return (
         <div>
-            <input id='label' type='checkbox' checked={checked}/>
             <label value = {label} for='label'>
                 <h2> {label} </h2>   
             </label>
+            <input id='label' type='checkbox' checked={checked}/>
             {/*<button onClick={() => moveUp()}>Move up</button>
             <button onClick={() => moveDown()}>Move down</button> */}
         </div>
