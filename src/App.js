@@ -4,7 +4,7 @@ import SetYourGoals from './SetYourGoals';
 import Goals from './Goals';
 import './styles/custom.css';
 
-function App(props) {
+function App() {
   return (
     <BrowserRouter>
       <Route path = "/" exact>

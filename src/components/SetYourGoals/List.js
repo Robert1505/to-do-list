@@ -8,7 +8,7 @@ export default function List(props) {
             <div className = "font-bold">
                 {
                     props.elemente.map((el,idx) => {
-                        return <div className = "label-set"><Item key = {idx} name = {el.name} /></div>
+                        return <div key = {`item-list-${idx}`} className = "label-set"><Item  name = {el.name} /></div>
                     })
                 }
             </div>
